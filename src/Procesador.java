@@ -1,3 +1,4 @@
+// Esta clase está guardada localmente.
 public class Procesador {
     //Estados, Atributos, Propiedades
     public String brand;
