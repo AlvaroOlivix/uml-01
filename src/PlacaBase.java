@@ -1,14 +1,14 @@
 public class PlacaBase {
-    public String base;
+    public String brand;
     public String model;
     public Double price;
 
     public String getFullName() {
-        return base + " " + model + " " + price;
+        return brand + " " + model + " " + price;
     }
 
     public String getBase() {
-        return base;
+        return brand;
     }
 
     public String getModel() {

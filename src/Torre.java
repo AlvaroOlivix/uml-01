@@ -1,24 +1,26 @@
 public class Torre {
-        public String size;
-        public String model;
-        public String brand;
-        public Double price;
+    public String model;
+    public String brand;
+    public String size;
+    public Double price;
 
-        public String getFullName() {
-            return size + " " + brand + " " + model + " " +  price;
-        }
+    public String getFullName() {
+        return size + " " + brand + " " + model + " " + price;
+    }
 
-        public String getRam() { return size;}
+    public String getRam() {
+        return size;
+    }
 
-        public Double getPrice() {
-            return price;
-        }
+    public Double getPrice() {
+        return price;
+    }
 
-        public String getBrand() {
-            return brand;
-        }
+    public String getBrand() {
+        return brand;
+    }
 
-        public String getModel() {
-            return model;
-        }
+    public String getModel() {
+        return model;
+    }
 }
