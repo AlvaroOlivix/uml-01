@@ -1,5 +1,5 @@
 // Esta clase está guardada localmente.
-public class Procesador {
+public class Procesor {
     //Estados, Atributos, Propiedades
     public String brand;
     public String model;
